@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: const Color(0xff211f21)),
         useMaterial3: true,
       ),
-      home: const Scaffold(
+      home:  Scaffold(
         body: GradientContainer.purple(),
       ),
     );
